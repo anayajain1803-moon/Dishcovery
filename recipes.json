@@ -1,0 +1,651 @@
+[
+    {
+        "name": "Avocado Toast",
+        "ingredients": [
+            "avocado",
+            "bread",
+            "cheese"
+        ],
+        "prep_time": "12 mins",
+        "image": "static/images/avocado_toast.jpg",
+        "instructions": [
+            "Step 1: Toast the bread slices until golden brown.",
+            "Step 2: Mash the avocado and spread it on the toast.",
+            "Step 3: Sprinkle cheese on top and serve immediately."
+        ]
+    },
+    {
+        "name": "Poha",
+        "ingredients": [
+            "flattened rice",
+            "onion",
+            "mustard seeds"
+        ],
+        "prep_time": "12 mins",
+        "image": "static/images/poha.jpg.png",
+        "instructions": [
+            "Step 1: Rinse the flattened rice and set aside.",
+            "Step 2: Fry mustard seeds and onions until golden.",
+            "Step 3: Add flattened rice and cook for 5 mins.",
+            "Step 4: Serve hot."
+        ]
+    },
+    {
+        "name": "Rava Upma",
+        "ingredients": [
+            "semolina",
+            "onion",
+            "mustard seeds"
+        ],
+        "prep_time": "15 mins",
+        "image": "static/images/rava_upma.jpg.png",
+        "instructions": [
+            "Step 1: Roast semolina lightly.",
+            "Step 2: Fry mustard seeds and onions.",
+            "Step 3: Add water and cook semolina until soft.",
+            "Step 4: Serve warm."
+        ]
+    },
+    {
+        "name": "Tomato Pasta",
+        "ingredients": [
+            "pasta",
+            "tomato",
+            "cheese"
+        ],
+        "prep_time": "20 mins",
+        "image": "static/images/tomato_pasta.jpg",
+        "instructions": [
+            "Step 1: Boil pasta until al dente.",
+            "Step 2: Cook tomatoes and prepare sauce.",
+            "Step 3: Mix pasta with sauce and top with cheese."
+        ]
+    },
+    {
+        "name": "Veggie Wrap",
+        "ingredients": [
+            "tortilla",
+            "lettuce",
+            "carrot",
+            "cheese"
+        ],
+        "prep_time": "10 mins",
+        "image": "static/images/veggie_wrap.jpg",
+        "instructions": [
+            "Step 1: Lay out the tortilla.",
+            "Step 2: Add lettuce, carrots, and cheese.",
+            "Step 3: Roll tightly and slice.",
+            "Step 4: Serve fresh."
+        ]
+    },
+    {
+        "name": "Cheesy Avocado Salad",
+        "ingredients": [
+            "avocado",
+            "tomato",
+            "lettuce",
+            "cheese"
+        ],
+        "prep_time": "10 mins",
+        "image": "static/images/avocado_salad.jpg",
+        "instructions": [
+            "Step 1: Chop avocado, tomato, and lettuce.",
+            "Step 2: Mix together in a bowl.",
+            "Step 3: Sprinkle cheese on top.",
+            "Step 4: Serve chilled."
+        ]
+    },
+    {
+        "name": "Banana Pancakes",
+        "ingredients": [
+            "banana",
+            "milk",
+            "egg",
+            "flour"
+        ],
+        "prep_time": "15 mins",
+        "image": "static/images/banana_pancakes.jpg",
+        "instructions": [
+            "Step 1: Mash bananas and mix with milk, egg, and flour.",
+            "Step 2: Pour batter onto hot pan and cook until golden.",
+            "Step 3: Flip and cook the other side.",
+            "Step 4: Serve with syrup or honey."
+        ]
+    },
+    {
+        "name": "Tomato Omelette",
+        "ingredients": [
+            "egg",
+            "tomato",
+            "onion"
+        ],
+        "prep_time": "10 mins",
+        "image": "static/images/tomato_omelette.jpg",
+        "instructions": [
+            "Step 1: Beat eggs with chopped tomatoes and onions.",
+            "Step 2: Pour mixture on a heated pan.",
+            "Step 3: Cook until firm and golden.",
+            "Step 4: Serve hot."
+        ]
+    },
+    {
+        "name": "Mango Smoothie",
+        "ingredients": [
+            "mango",
+            "milk",
+            "honey"
+        ],
+        "prep_time": "5 mins",
+        "image": "static/images/mango_smoothie.jpg",
+        "instructions": [
+            "Step 1: Chop mangoes and add to blender.",
+            "Step 2: Add milk and honey.",
+            "Step 3: Blend until smooth.",
+            "Step 4: Serve chilled."
+        ]
+    },
+    {
+        "name": "Paneer Tikka",
+        "ingredients": [
+            "paneer",
+            "yogurt",
+            "capsicum"
+        ],
+        "prep_time": "25 mins",
+        "image": "static/images/paneer_tikka.jpg",
+        "instructions": [
+            "Step 1: Marinate paneer with yogurt and spices.",
+            "Step 2: Skewer paneer and capsicum.",
+            "Step 3: Grill or bake until golden.",
+            "Step 4: Serve hot."
+        ]
+    },
+    {
+        "name": "Aloo Paratha",
+        "ingredients": [
+            "wheat flour",
+            "potato",
+            "spices"
+        ],
+        "prep_time": "25 mins",
+        "image": "static/images/aloo_paratha.jpg",
+        "instructions": [
+            "Step 1: Prepare dough using wheat flour.",
+            "Step 2: Stuff with spiced mashed potatoes.",
+            "Step 3: Roll out and cook on a hot griddle.",
+            "Step 4: Serve with butter or yogurt."
+        ]
+    },
+    {
+        "name": "Mushroom Risotto",
+        "ingredients": [
+            "rice",
+            "mushroom",
+            "cream"
+        ],
+        "prep_time": "30 mins",
+        "image": "static/images/mushroom_risotto.jpg",
+        "instructions": [
+            "Step 1: Sauté mushrooms in butter.",
+            "Step 2: Add rice and cook slowly with stock.",
+            "Step 3: Stir in cream until creamy.",
+            "Step 4: Serve hot."
+        ]
+    },
+    {
+        "name": "Caprese Salad",
+        "ingredients": [
+            "tomato",
+            "mozzarella",
+            "basil"
+        ],
+        "prep_time": "8 mins",
+        "image": "static/images/caprese_salad.jpg",
+        "instructions": [
+            "Step 1: Slice tomato and mozzarella.",
+            "Step 2: Arrange alternately and add basil leaves.",
+            "Step 3: Drizzle with olive oil and season.",
+            "Step 4: Serve fresh."
+        ]
+    },
+    {
+        "name": "Vegetable Soup",
+        "ingredients": [
+            "carrot",
+            "beans",
+            "tomato",
+            "onion"
+        ],
+        "prep_time": "20 mins",
+        "image": "static/images/vegetable_soup.jpg",
+        "instructions": [
+            "Step 1: Chop all vegetables.",
+            "Step 2: Boil with stock until tender.",
+            "Step 3: Blend if desired or serve chunky.",
+            "Step 4: Serve hot."
+        ]
+    },
+    {
+        "name": "French Toast",
+        "ingredients": [
+            "bread",
+            "milk",
+            "egg",
+            "sugar"
+        ],
+        "prep_time": "12 mins",
+        "image": "static/images/french_toast.jpg",
+        "instructions": [
+            "Step 1: Beat egg, milk, and sugar.",
+            "Step 2: Dip bread slices and cook on a hot pan.",
+            "Step 3: Flip and cook other side.",
+            "Step 4: Serve with syrup."
+        ]
+    },
+    {
+        "name": "Test Recipe 16",
+        "ingredients": [
+            "ingredient1",
+            "ingredient2"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 17",
+        "ingredients": [
+            "ingredient3",
+            "ingredient4"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 18",
+        "ingredients": [
+            "ingredient5",
+            "ingredient6"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 19",
+        "ingredients": [
+            "ingredient7",
+            "ingredient8"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 20",
+        "ingredients": [
+            "ingredient9",
+            "ingredient10"
+        ],
+        "prep_time": "8 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 21",
+        "ingredients": [
+            "ingredient11",
+            "ingredient12"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 22",
+        "ingredients": [
+            "ingredient13",
+            "ingredient14"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 23",
+        "ingredients": [
+            "ingredient15",
+            "ingredient16"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 24",
+        "ingredients": [
+            "ingredient17",
+            "ingredient18"
+        ],
+        "prep_time": "18 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 25",
+        "ingredients": [
+            "ingredient19",
+            "ingredient20"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 26",
+        "ingredients": [
+            "ingredient21",
+            "ingredient22"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 27",
+        "ingredients": [
+            "ingredient23",
+            "ingredient24"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 28",
+        "ingredients": [
+            "ingredient25",
+            "ingredient26"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 29",
+        "ingredients": [
+            "ingredient27",
+            "ingredient28"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 30",
+        "ingredients": [
+            "ingredient29",
+            "ingredient30"
+        ],
+        "prep_time": "18 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 31",
+        "ingredients": [
+            "ingredient31",
+            "ingredient32"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 32",
+        "ingredients": [
+            "ingredient33",
+            "ingredient34"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 33",
+        "ingredients": [
+            "ingredient35",
+            "ingredient36"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 34",
+        "ingredients": [
+            "ingredient37",
+            "ingredient38"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 35",
+        "ingredients": [
+            "ingredient39",
+            "ingredient40"
+        ],
+        "prep_time": "8 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 36",
+        "ingredients": [
+            "ingredient41",
+            "ingredient42"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 37",
+        "ingredients": [
+            "ingredient43",
+            "ingredient44"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 38",
+        "ingredients": [
+            "ingredient45",
+            "ingredient46"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 39",
+        "ingredients": [
+            "ingredient47",
+            "ingredient48"
+        ],
+        "prep_time": "18 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 40",
+        "ingredients": [
+            "ingredient49",
+            "ingredient50"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 41",
+        "ingredients": [
+            "ingredient51",
+            "ingredient52"
+        ],
+        "prep_time": "15 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 42",
+        "ingredients": [
+            "ingredient53",
+            "ingredient54"
+        ],
+        "prep_time": "12 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 43",
+        "ingredients": [
+            "ingredient55",
+            "ingredient56"
+        ],
+        "prep_time": "10 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    },
+    {
+        "name": "Test Recipe 44",
+        "ingredients": [
+            "ingredient57",
+            "ingredient58"
+        ],
+        "prep_time": "20 mins",
+        "image": "https://via.placeholder.com/150",
+        "instructions": [
+            "Step 1: Prepare ingredients.",
+            "Step 2: Cook as per recipe.",
+            "Step 3: Serve and enjoy!"
+        ]
+    }
+]

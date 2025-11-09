@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ recipe.name }} — Dishcovery</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body { font-family: "Poppins", sans-serif; background-color: #f9f9f9; margin: 0; text-align: center; }
+    header { background-color: #2b6777; color: white; padding: 15px; font-size: 24px; font-weight: 600; }
+    .recipe-container { max-width: 800px; margin: 30px auto; background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left; }
+    img { width: 100%; border-radius: 15px; object-fit: cover; }
+    h2 { color: #2b6777; margin-top: 20px; }
+    ul { margin-top: 15px; padding-left: 20px; }
+    .btn { display: inline-block; background: #2b6777; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; margin: 10px 5px 0 0; }
+    .btn:hover { background: #52ab98; }
+  </style>
+</head>
+<body>
+  <header>🍽️ {{ recipe.name }}</header>
+
+  <div style="margin: 20px;">
+    <a href="{{ url_for('results_page') }}" class="btn">← Back to Results</a>
+    <a href="/logout" class="btn">Logout</a>
+  </div>
+
+  <div class="recipe-container">
+    <img src="{{ recipe.image_url }}" alt="{{ recipe.name }}">
+    <h2>Ingredients</h2>
+    <p>{{ recipe.ingredients | join(', ') }}</p>
+    <h2>Prep Time</h2>
+    <p>{{ recipe.prep_time }}</p>
+    <h2>Instructions</h2>
+    <ul>
+      {% for step in instructions %}
+        <li>{{ step }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>

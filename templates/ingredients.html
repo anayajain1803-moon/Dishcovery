@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dishcovery — Ingredients</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header"><h1 class="logo">Dishcovery 🍲</h1></header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Tell us what ingredients you have</h2>
+      <p class="sub-text">e.g. <em>avocado, cheese, bread</em></p>
+
+      <form action="{{ url_for('get_recipes') }}" method="POST" id="ingredientsForm">
+        <div class="input-container">
+          <input id="ingredients" name="ingredients" type="text" placeholder="Enter ingredients, comma separated" required>
+          <button type="submit" id="find-dish-btn">Find Recipes</button>
+        </div>
+      </form>
+
+      {% if error %}
+        <p class="error">{{ error }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <footer class="footer"><p>Made with love ♻️</p></footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
